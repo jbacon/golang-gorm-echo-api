@@ -4,7 +4,7 @@ WORKDIR /app/
 
 ADD . .
 
-RUN go build -o executable -mod vendor .
+RUN go build -o executable .
 
 
 FROM gcr.io/distroless/base-debian10
