@@ -1,0 +1,32 @@
+[
+    {
+        "name": "app1",
+        "platform": "android",
+        "bundle_id": "com.company1.app1",
+        "versions": [
+            {
+                "appstore_version": "1.0",
+                "internal_version": "1.5"
+            },
+            {
+                "appstore_version": "2.0",
+                "internal_version": "2.5"
+            }
+        ]
+    },
+    {
+        "name": "app2",
+        "platform": "ios",
+        "bundle_id": "com.company2.app2",
+        "versions": [
+            {
+                "appstore_version": "1.2",
+                "internal_version": "1.6"
+            },
+            {
+                "appstore_version": "3.0",
+                "internal_version": "3.6"
+            }
+        ]
+    }
+]
