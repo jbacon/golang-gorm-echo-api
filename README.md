@@ -49,7 +49,10 @@ http://localhost:1323/apps/app1/versions/1.0/reports
 
 ### 0. Docker Work
 ```bash
-docker run -i -t -v ${PWD}:/app/ golang:1.15.3 /bin/bash
+docker run -i -t -p 1323 \
+-v ${PWD}:/app/ \
+--workdir /app/ \
+golang:1.15.3 go run main.go
 ```
 
 ### 1. Docker Build
